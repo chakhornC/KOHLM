@@ -1,0 +1,102 @@
+{
+  "site": {
+    "brand": "Kohlm",
+    "tagline_th": "ผิวสบาย ใจช้าลง ด้วยความอบอุ่นจากเกาะ",
+    "tagline_en": "Slow skin. Island warm.",
+    "hero_image": "images/mix_gemini.jpg",
+    "hero_alt_th": "ผลิตภัณฑ์ Kohlm ทั้งชุดวางบนผ้าลินิน มีเงาใบปาล์มพาดอยู่ด้านหลัง",
+    "hero_alt_en": "The full Kohlm range arranged on linen, with palm leaf shadows behind"
+  },
+  "products": [
+    {
+      "id": "coconut-body-oil",
+      "name": "Kohlm Coconut Body Oil",
+      "mood": "Golden Hour",
+      "type": "oil",
+      "size": "100 ml",
+      "price": 450,
+      "image": "images/Coconut_Body_Oil_gemini.jpg",
+      "story_th": "แสงสุดท้ายของวัน ผิวนุ่มชุ่มชื้น หอมมะพร้าวอ่อนๆ เหมือนเดินเล่นริมหาดตอนเย็น",
+      "story_en": "The last light of the day. Skin soft and moisturized, with a gentle coconut scent, like an evening stroll along the beach.",
+      "short_th": "น้ำมันมะพร้าวสกัดเย็น ใช้ได้ทั้งผิว ผม และนวด ขวดเดียวครบ",
+      "short_en": "Cold-pressed coconut oil for skin, hair and massage. One bottle does it all.",
+      "alt_th": "ขวดหยดสีอำพัน 100 ml วางคู่กับมะพร้าวผ่าซีกและดอกลีลาวดี",
+      "alt_en": "A 100 ml amber dropper bottle beside a halved coconut and plumeria flowers"
+    },
+    {
+      "id": "travel-oil",
+      "name": "Kohlm Travel Oil",
+      "mood": "Carry-On",
+      "type": "oil",
+      "size": "30 ml",
+      "price": 180,
+      "image": "images/Travel_Oil_gemini.jpg",
+      "story_th": "ขนาดพอดีมือ ใส่กระเป๋าได้ทุกทริป ให้ความอบอุ่นของเกาะตามไปได้ทุกที่",
+      "story_en": "Hand-sized and ready for every trip, it brings the warmth of the island wherever you go.",
+      "short_th": "น้ำมันมะพร้าวสกัดเย็นขนาดพกพา พร้อมไปกับคุณทุกที่",
+      "short_en": "Cold-pressed coconut oil in a travel size, ready to go wherever you do.",
+      "alt_th": "ขวดหยดเล็กสีอำพัน 30 ml มีเงาใบปาล์มอยู่ด้านหลัง",
+      "alt_en": "A small 30 ml amber dropper bottle with palm leaf shadows behind it"
+    },
+    {
+      "id": "sea-salt-coconut-scrub",
+      "name": "Kohlm Sea Salt Coconut Scrub",
+      "mood": "Sea Reset",
+      "type": "scrub",
+      "size": "150 g",
+      "price": 420,
+      "image": "images/Sea_Salt_Coconut_Scrub_gemini.jpg",
+      "story_th": "ขัดผิวให้เนียนใสด้วยเกลือทะเล เหมือนล้างทุกอย่างทิ้งไปกับคลื่น แล้วเริ่มใหม่",
+      "story_en": "Sea salt buffs your skin smooth and bright, like letting the waves wash everything away so you can begin again.",
+      "short_th": "สครับเกลือทะเลผสมมะพร้าว ขัดอ่อนโยน ผิวเนียนนุ่มหลังล้างออก",
+      "short_en": "Sea salt and coconut scrub that exfoliates gently, leaving skin smooth and soft after rinsing.",
+      "alt_th": "กระปุกแก้วฝาไม้บรรจุสครับเกลือทะเล วางคู่กับเปลือกหอย",
+      "alt_en": "A glass jar with a wooden lid filled with sea salt scrub, next to seashells"
+    },
+    {
+      "id": "herbal-balm",
+      "name": "Kohlm Herbal Balm",
+      "mood": "Slow Down",
+      "type": "balm",
+      "size": "30 g",
+      "price": 290,
+      "image": "images/Herbal_Balm_gemini.jpg",
+      "story_th": "กลิ่นตะไคร้ ไพล ขมิ้น ชวนให้หยุดหายใจลึกๆ สักครู่ในวันที่เร่งรีบ",
+      "story_en": "Lemongrass, plai and turmeric invite you to pause for one deep breath on a rushed day.",
+      "short_th": "บาล์มสมุนไพรกลิ่นหอมผ่อนคลาย ทาแล้วผิวชุ่มชื้น",
+      "short_en": "Herbal balm with a relaxing scent that leaves skin moisturized.",
+      "alt_th": "ตลับอลูมิเนียมบรรจุบาล์ม วางข้างตะไคร้ ขมิ้น และขิง",
+      "alt_en": "An aluminium tin of balm beside lemongrass, turmeric and ginger"
+    },
+    {
+      "id": "natural-soap",
+      "name": "Kohlm Natural Soap",
+      "mood": "Little Souvenir",
+      "type": "soap",
+      "size": "100 g",
+      "price": 190,
+      "image": "images/Natural_Soap_gemini.jpg",
+      "story_th": "ก้อนเล็กๆ ที่ฝากใครก็ยิ้ม ใช้ได้ทุกวัน ราคาเป็นมิตร",
+      "story_en": "A small bar that makes anyone smile. Made for everyday use, at a friendly price.",
+      "short_th": "สบู่ก้อนธรรมชาติ ฟองนุ่ม กลิ่นสบายๆ ฝากง่าย",
+      "short_en": "Natural soap bar with soft lather and an easy scent, simple to take home as a gift.",
+      "alt_th": "สบู่ก้อนห่อกระดาษคราฟต์ผูกเชือก วางบนถาดไม้",
+      "alt_en": "A soap bar wrapped in kraft paper and tied with twine, on a wooden tray"
+    },
+    {
+      "id": "island-ritual-set",
+      "name": "Kohlm Island Ritual Set",
+      "mood": "Island Ritual",
+      "type": "set",
+      "size": "Travel Oil + Herbal Balm + Natural Soap",
+      "price": 790,
+      "image": "images/Island_Ritual_Set_gemini.jpg",
+      "story_th": "ความอบอุ่นของเกาะรวมไว้ในกล่องเดียว ให้ตัวเองหรือให้คนที่รัก",
+      "story_en": "The warmth of the island in a single box, for yourself or someone you love.",
+      "short_th": "Travel Oil + Herbal Balm + Natural Soap ในกล่องของขวัญ",
+      "short_en": "Travel Oil + Herbal Balm + Natural Soap in a gift box.",
+      "alt_th": "กล่องของขวัญคราฟต์ บรรจุขวดน้ำมัน บาล์ม และสบู่ พร้อมใบปาล์มแห้ง",
+      "alt_en": "A kraft gift box holding an oil bottle, a balm tin and a soap bar, with dried palm leaves"
+    }
+  ]
+}

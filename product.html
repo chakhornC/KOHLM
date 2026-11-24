@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>สินค้าทั้งหมด · All products | Kohlm</title>
+  <meta name="description" content="สินค้า Kohlm ทั้งหมด น้ำมันมะพร้าว สครับเกลือทะเล บาล์มสมุนไพร สบู่ และชุดของขวัญ เลือกตามอารมณ์ของวัน | All Kohlm products: coconut oil, sea salt scrub, herbal balm, soap and gift set.">
+  <meta name="theme-color" content="#f3ebdd">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@300;400;500&family=Noto+Sans+Thai:wght@300;400;500&family=Noto+Serif+Thai:wght@400;500;600&display=swap">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main" data-th="ข้ามไปยังเนื้อหา" data-en="Skip to content">ข้ามไปยังเนื้อหา</a>
+
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="brand" href="index.html">Kohlm</a>
+      <div class="site-header__right">
+        <nav class="nav" aria-label="เมนูหลัก / Main menu">
+          <a href="index.html" data-th="หน้าแรก" data-en="Home">หน้าแรก</a>
+          <a href="product.html" aria-current="page" data-th="สินค้า" data-en="Products">สินค้า</a>
+        </nav>
+        <button type="button" id="lang-toggle">TH | EN</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="section" aria-labelledby="page-title">
+      <div class="container">
+        <div class="section__head">
+          <h1 id="page-title" data-th="สินค้าทั้งหมด" data-en="All products">สินค้าทั้งหมด</h1>
+          <hr class="rule">
+          <p class="lead" data-th="ทุกชิ้นหยิบความอบอุ่นจากเกาะมาไว้ใกล้ตัว เลือกตามอารมณ์ของวันได้เลย" data-en="Every piece brings a little island warmth closer. Pick by the mood of your day.">ทุกชิ้นหยิบความอบอุ่นจากเกาะมาไว้ใกล้ตัว เลือกตามอารมณ์ของวันได้เลย</p>
+        </div>
+
+        <div id="filter-bar" class="filter-bar" role="group" aria-label="กรองตามอารมณ์ / Filter by mood"></div>
+
+        <div id="product-list" class="product-grid" aria-live="polite"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <a class="brand" href="index.html">Kohlm</a>
+      <p data-th="ผิวสบาย ใจช้าลง ด้วยความอบอุ่นจากเกาะ" data-en="Slow skin. Island warm.">ผิวสบาย ใจช้าลง ด้วยความอบอุ่นจากเกาะ</p>
+      <p class="text-en">&copy; 2026 Kohlm</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

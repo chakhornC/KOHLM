@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>สั่งซื้อ · Place your order | Kohlm</title>
+  <meta name="description" content="สั่งซื้อผลิตภัณฑ์ดูแลผิว Kohlm กรอกรายละเอียดสั้นๆ แล้วเราจะติดต่อกลับ | Order Kohlm natural skincare. Share a few details and we'll get back to you.">
+  <meta name="theme-color" content="#f3ebdd">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@300;400;500&family=Noto+Sans+Thai:wght@300;400;500&family=Noto+Serif+Thai:wght@400;500;600&display=swap">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main" data-th="ข้ามไปยังเนื้อหา" data-en="Skip to content">ข้ามไปยังเนื้อหา</a>
+
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="brand" href="index.html">Kohlm</a>
+      <div class="site-header__right">
+        <nav class="nav" aria-label="เมนูหลัก / Main menu">
+          <a href="index.html" data-th="หน้าแรก" data-en="Home">หน้าแรก</a>
+          <a href="product.html" data-th="สินค้า" data-en="Products">สินค้า</a>
+        </nav>
+        <button type="button" id="lang-toggle">TH | EN</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="section" aria-labelledby="page-title">
+      <div class="container">
+        <div class="section__head">
+          <h1 id="page-title" data-th="สั่งซื้อ" data-en="Place your order">สั่งซื้อ</h1>
+          <hr class="rule">
+          <p class="lead" data-th="กรอกรายละเอียดสั้นๆ แล้วเราจะติดต่อกลับเพื่อยืนยันคำสั่งซื้อของคุณ" data-en="Share a few details and we'll get back to you to confirm your order.">กรอกรายละเอียดสั้นๆ แล้วเราจะติดต่อกลับเพื่อยืนยันคำสั่งซื้อของคุณ</p>
+        </div>
+
+        <form id="orderForm" class="order-form">
+          <div class="form-field">
+            <label class="form-label form-label--required" for="customerName" data-th="ชื่อลูกค้า" data-en="Name">ชื่อลูกค้า</label>
+            <input class="form-input" type="text" id="customerName" autocomplete="name" required>
+          </div>
+
+          <div class="form-field">
+            <label class="form-label form-label--required" for="contact" data-th="เบอร์โทร / Line" data-en="Phone / LINE">เบอร์โทร / Line</label>
+            <input class="form-input" type="text" id="contact" aria-describedby="contact-hint" required>
+            <p class="form-hint" id="contact-hint" data-th="เบอร์โทรหรือ LINE ID ที่เราติดต่อกลับได้" data-en="A phone number or LINE ID we can reach you on">เบอร์โทรหรือ LINE ID ที่เราติดต่อกลับได้</p>
+          </div>
+
+          <div class="form-field">
+            <label class="form-label form-label--required" for="items" data-th="รายการสินค้า" data-en="Items">รายการสินค้า</label>
+            <textarea class="form-input" id="items" rows="3" required></textarea>
+          </div>
+
+          <div class="form-field">
+            <label class="form-label form-label--required" for="total" data-th="จำนวนเงินรวม (บาท)" data-en="Total (THB)">จำนวนเงินรวม (บาท)</label>
+            <input class="form-input" type="text" id="total" inputmode="numeric" aria-describedby="total-hint" required>
+            <p class="form-hint" id="total-hint" data-th="ถ้าสั่งหลายรายการ กรุณารวมยอดให้ตรงกัน" data-en="If you order several items, please make the total match.">ถ้าสั่งหลายรายการ กรุณารวมยอดให้ตรงกัน</p>
+          </div>
+
+          <div class="form-field">
+            <label class="form-label" for="note" data-th="หมายเหตุ (ไม่บังคับ)" data-en="Note (optional)">หมายเหตุ (ไม่บังคับ)</label>
+            <textarea class="form-input" id="note" rows="3"></textarea>
+          </div>
+
+          <div class="form-actions">
+            <button type="submit" class="btn btn--solid btn--block" data-th="ยืนยันสั่งซื้อ" data-en="Confirm order">ยืนยันสั่งซื้อ</button>
+            <a class="back-link" href="product.html" data-th="← เลือกสินค้าเพิ่ม" data-en="← Keep browsing">← เลือกสินค้าเพิ่ม</a>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <a class="brand" href="index.html">Kohlm</a>
+      <p data-th="ผิวสบาย ใจช้าลง ด้วยความอบอุ่นจากเกาะ" data-en="Slow skin. Island warm.">ผิวสบาย ใจช้าลง ด้วยความอบอุ่นจากเกาะ</p>
+      <p class="text-en">&copy; 2026 Kohlm</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
